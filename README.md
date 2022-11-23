@@ -12,8 +12,9 @@ Today, this tool only extracts report by Licensed User and for Per Flow plans. U
 Caution: This tool is provided as-is and is unsupported. 
 It is also using an undocumented API - this API may change, and therefore the solution will require changes in accordance to the changes to the API, or may be unusable in the future.
 
-#Setup Guide
-1. Download the solution file (PlatformRequestMonitor_1_x_x_x_managed.zip).
+## Setup Guide
+1. Download the solution file (PlatformRequestMonitor_1_x_x_x_managed.zip). https://github.com/fooshen/PlatformRequestMonitor/blob/main/PlatformRequestMonitor_1_0_0_1_managed.zip
+
 2. Go to your Power Apps Maker portal and select your desired Environment for this solution. This solution is intended for Admins, so pick a suitable Enviroment, for example your CoE Environment. Copy your existing Tenant ID and your Instance Url values - we will need these later. While in the Power Apps Maker portal, click on the gear icon and select "Session details". Copy the tenant Id and Instance Url values from the session details dialog.
 <img width="400px" src="https://user-images.githubusercontent.com/23041800/203438206-991f8772-8f25-4ca3-aef0-c4d2672ab300.png" />
 <img width="400px" src="https://user-images.githubusercontent.com/23041800/203440728-885625a6-3baf-4c63-8599-ac30e02a5013.png" />
