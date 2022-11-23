@@ -61,8 +61,8 @@ Click Next to proceed, and finally "Publish".
 11. Perform the same for the second Flow - CFMgr Import User Report. Update the OrgId parameter with your Instance Url copied from Step 2 above (remember not to include the preceeding "https://" and the trailing "/" at the end).
 For the query "Get User Consumption Report", click Configure connection. You will just need to select the same connection created in Step 10 and click Next, and finally "Publish".
 
-12. Lastly, edit the Cloud Flow CFMgr|Import Report. You will need to expand the Switch block and update the DataFlow actions "Import User Report" and "Import Flow Report" to resolve your current Environment and DataFlows that were published in steps 10 and 11 above.
-![image](https://user-images.githubusercontent.com/23041800/203449941-b19a759b-6ee8-4321-9c22-bcc08e32df7b.png)
+12. Lastly, edit the Cloud Flow CFMgr|Import Report. You will need to expand the Switch block and update the DataFlow actions "Import User Report", it's corresponding Wait until Report completes and "Import Flow Report" and its correspnding wait action to resolve your current Environment and DataFlows that were published in steps 10 and 11 above.
+![image](https://user-images.githubusercontent.com/23041800/203452255-42e4838f-b63f-4a01-8af3-85ca56d4fc29.png)
 
 
 That's all - you have now set up the solution which will now refresh the Platform Request report every 24 hours. 
